@@ -1,0 +1,3 @@
+COMPONENT=BeaconAppC
+include $(MAKERULES)
+

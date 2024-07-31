@@ -1,0 +1,848 @@
+
+cd /opt/tinyos-2.1.1/apps/TESI/
+make telosb
+make telosbcd ..
+cd ..
+cd BaseStation/
+make telosb
+motelist
+make telosb reinstall bs1,/dev/ttyUSB0
+cd ../Oscilloscope/
+make telosb
+motelist
+make telosb reinstall bs1,/dev/ttyUSB0
+cd ../BaseStation/
+make telosb
+make telosb reinstall bs1,/dev/ttyUSB0
+java
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+cd /opt/tinyos-2.1.1/apps/Oscilloscope/java/
+ls
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+motelist
+sudo tos-install-jni  from TestSerial
+ls
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+cd ..
+cd tests/TestAdc/
+make telosb
+make telosb reinstall bs1,/dev/ttyUSB0
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+cd ../../BaseStation/
+make telosb reinstall bs1,/dev/ttyUSB0
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb reinstall bs0,/dev/ttyUSB0
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+make telosb reinstall bs1,/dev/ttyUSB0
+java net.tinyos.sim.tinyviz -comm serial@/dev/ttyUSB0:telosb
+cd ../Oscilloscope/
+make telosb install,0
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb install,1
+ls
+java/run
+ls java/
+ls -l java/
+java/oscilloscope.jar 
+cd java/
+make
+./run 
+javac RssiDemo.java RssiMsg.java
+tos-install-jni
+sudo tos-install-jni
+make
+sudo make
+cd ..
+make
+ls -l
+make telosb install,1
+cd java/
+make telosb install
+make
+./run 
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb install,1
+cd 
+make telosb install,1
+motelist
+make telosb reinstall bs1,/dev/ttyUSB1
+make telosb install,1
+cd /
+motelist
+sudo apt-get install graphviz
+motelist
+java net.tinyos.tools.Listen -comm sf@localhost:9002
+java net.tinyos.tools.Listen
+java net.tinyos.tools.Listen -comm sf@localhost:9002
+find /opt/tinyos-2.1.2/ | grep tools
+ls /opt/tinyos-2.1.2/support/sdk/java/net/tinyos/tools/
+find /opt/tinyos-2.1.2/ | grep tinytools
+java net.tinyos.tools.Listen -comm sf@localhost:9002
+ifconfig
+ls -l Scaricati/kernel.bin 
+ls -la /media/boot/kernel.bin 
+umount /media/boot 
+umount /media/Narcissus-rootfs 
+sudo rm -r /media/DISCO/.Trash-1000/
+ls -l Scaricati/kernel.bin 
+ls -l Scaricati/ker*
+rm Scaricati/kernel.bin 
+ls -l Scaricati/ker*
+sudo rm /media/boot/kernel.bin 
+ls -l Scaricati/ker*
+sudo cp Scaricati/kernel.bin /media/boot/
+umount /media/boot 
+umount /media/Narcissus-rootfs 
+ls -l Scaricati/ker*
+sudo rm /media/boot/kernel.bin 
+rm Scaricati/kernel.bin 
+sudo cp Scaricati/kernel.bin /media/boot/
+umount /media/Narcissus-rootfs 
+umount /media/boot 
+rm Scaricati/kernel.bin 
+sudo rm /media/boot/kernel.bin 
+sudo cp Scaricati/kernel.bin /media/boot/
+umount /media/boot 
+umount /media/Narcissus-rootfs 
+rm Scaricati/kernel.bin 
+sudo rm /media/boot/kernel.bin 
+rm Scaricati/kernel.bin 
+sudo rm /media/boot/kernel.bin 
+sudo cp Scaricati/kernel.bin /media/boot/
+umount /media/Narcissus-rootfs 
+umount /media/boot 
+exit
+ls -l /dev/ttyU*
+minicom
+ls -l /dev/ttyU*
+minicom
+ls -l /dev/ttyU*
+minicom
+exit
+ifconfig
+ping www.google.it
+df
+ls -la /media/Elements/
+rm /media/Elements/._.Trashes 
+rm -r /media/Elements/.Trash-1000/
+rm -r /media/Elements/.DS_Store 
+rm -r /media/Elements/.fseventsd/
+rm -r /media/Elements/.NTFS-3G/
+ls -la /media/Elements/
+rm -r /media/Elements/.Trashes/
+ls -la /media/Elements/
+df
+sudo cp -r /media/Elements/ /media/DATA/
+ps
+top
+df /media/Elements/.Trash-1000/
+ifconfig
+gedit .profile
+ls -la
+gedit .bashrc
+cd /opt/tinyos-2.1.2/progetti/Allegati_2013817/
+make
+make telosb
+motelist
+make telosb install,1
+motelist
+make telosb reinstall bsl, /dev/ttyUSB0
+motelist
+ls /dev/ttyU*
+make telosb reinstall bsl, /dev/ttyUSB0
+make telosb install,0
+jv e.i o.fSraFradr­omsra@EIEtls
+aanttn ss.eilowre cm eilDVC:eob
+ls
+cd build/
+ls
+cd telosb/
+ls
+run
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb reinstall bsl, /dev/ttyUSB0
+cd ..
+make telosb reinstall bsl, /dev/ttyUSB0
+make telosb
+make telosb reinstall bsl, /dev/ttyUSB0
+cd ..
+cd apps/Oscilloscope/
+make telosb
+make telosb reinstall bsl, /dev/ttyUSB0
+make telosb reinstall bsl,/dev/ttyUSB0
+ls
+cd /opt/tinyos-2.1.2/progetti/Allegati_2013817/
+ls
+make telosb install,1
+motelist
+make telosb install,1
+make telosb install,0
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+make telosb install,1
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+cd ..
+cd Allegati_2013817/
+make telosb install,0
+make telosb install,1
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+motelist
+make telosb install,1
+cd ..
+cd apps/MultihopOscilloscope
+make telosb install,1
+make telosb install,0
+cd java/
+make
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+motelist
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+cd ..
+ls
+cd progetti/Allegati_2013817/
+make telosb install,0
+make telosb install,1
+make telosb install,0
+make telosb install,1
+updatedb
+sudo updatedb
+make telosb install,1
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+make telosb install,1
+flush
+motelist
+ps
+ps -a
+motelist
+umount /dev/ttyUSB0
+open /dev/ttyUSB0
+motelist
+ps
+exit
+cd /home/
+ls
+cd gioge/
+ls
+cd Scaricati/
+ls uex_2.3.0.6_i386.deb 
+chmod 777 uex_2.3.0.6_i386.deb 
+ls uex_2.3.0.6_i386.deb 
+sudo apt-get install uex_2.3.0.6_i386.deb
+cat ../.bash_history | grep deb
+sudo dpkg -i uex_2.3.0.6_i386.deb 
+man dpkg
+sudo dpkg -deinstall uex_2.3.0.6_i386.deb 
+man dpkg
+sudo dpkg -r uex_2.3.0.6_i386.deb 
+sudo dpkg -r uex
+locate uex
+sudo rm -r ../.idm/uex/
+locate uex
+sudo rm  ../.idm/uex
+locate uex
+update locate
+locate uex
+ls ../.idm/
+sudo rm  -r ../.idm/
+locate uex
+update udb
+locate uex
+sudo dpkg -i uex_2.3.0.6_i386.deb 
+sudo dpkg -r uex
+locate uex
+sudo rm  -r ../.idm/uex/
+sudo rm  -r ../.idm/
+ls -l ../
+locate uex
+sudo rm /var/lib/dpkg/info/uex.list 
+sudo rm /var/lib/dpkg/info/uex.postrm 
+locate uex
+updatedb
+sudo updatedb
+locate uex
+rm /home/gioge/.cache/software-center/download-cache/screenshots.ubuntu.com_screenshot-with-version_uex_2.3.0.6
+sudo updatedb
+locate uex
+sudo dpkg -i uex_2.3.0.6_i386.deb 
+locate uex
+man dpkg
+sudo dpkg --remove uex
+sudo dpkg -p uex
+locate uex
+exit
+locate uex
+rm /var/lib/dpkg/info/uex.list
+sudo rm /var/lib/dpkg/info/uex.list
+sudo rm /var/lib/dpkg/info/uex.postrm 
+sudo rm -R /home/gioge/.idm/
+sudo rm -R /home/gioge/.cache/*
+updatedb
+sudo updatedb
+locate uex
+motelist
+cd /opt/tinyos-2.1.2/progetti/
+make telosb install,1
+ls
+cd Allegati_2013817/
+make telosb install,1
+motelist
+make telosb install,1
+motelist
+make telosb install,1
+locate uex
+locate center
+locate Ubuntu\ Software\ Center
+cat .bash_history | grep dpkg
+cd Scaricati/
+sudo dpkg -i uex_2.3.0.6_i386.deb
+sudo dpkg -r uex
+cd ..
+sudo rm -r .idm/
+updatedb
+sudo updatedb
+cd /opt/tinyos-2.1.2/progetti/Allegati_2013820/
+motelist
+make telosb install,1
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+kill -9 5639
+ps
+kill -9 5820
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall java
+ps
+killall -7 java
+ps
+killall -9 java
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+make telosb install,1
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,1
+motelist
+make telosb install,1
+cd /opt/tinyos-2.1.2/progetti/Allegati_2013820/
+make telosb install,1
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+diff BeaconC.nc BeaconC_old.nc 
+cd /opt/tinyos-2.1.2/progetti/Allegati_2013820/
+make telosb install,1
+motelist
+make telosb install,1
+motelist
+ps
+motelist
+make telosb
+ps
+ifconfig
+sudo ifconfig eth1 192.168.43.11
+ifconfig
+/etc/init.d/
+/etc/init.d/apache2 start
+sudo /etc/init.d/apache2 start
+sudo /etc/init.d/mysql start
+netstat
+sudo ifconfig eth1 192.168.43.11
+ifconfig
+sudo ifconfig eth1 192.168.1.1
+ifconfig
+ifconfig eth1 down
+sudo ifconfig eth1 down
+sudo ifconfig eth1 up
+ifconfig
+cd ..
+cd fff/
+make telosb install,0
+java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+motelist
+make telosb install,0
+make telosb reinstall.0x0042 bsl,/dev/ttyUSB0
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+cd /var/www/openAlerts-1.1.1/
+ls -l
+./configure 
+./configure mysql
+make
+make install
+./configure 
+make install
+sudo make install
+sudo make
+ls -l
+cd ..
+ls -l
+sudo chmod -R 777 openAlerts-1.1.1
+ls -l
+cd openAlerts-1.1.1/
+make
+ifconfig
+cd ..
+make
+cd openAlerts-1.1.1/
+make
+su
+cd /opt/tinyos-2.1.2/progetti/Allegati_2013820/
+motelist
+make telosb install,1
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,95
+motelist
+make telosb install,95
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+ps
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,255
+motelist
+ps
+killall -9 java
+ps
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+killall -9 java
+motelist
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+killall -9 java
+motelist
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+motelist
+make telosb install,3
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+motelist
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+ps
+motelist
+make telosb install,0
+killall -9 java
+make telosb install,0
+make telosb install,3
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+killall -9 java
+ps
+killall -9 tos-bsl
+killall -9 make
+ps
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+ps
+killall -9 java
+ps
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+ps
+make telosb install,3
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+make telosb install,0
+make telosb install,3
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,3
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+make telosb install,3
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,3
+ps
+killall -9 java
+ps
+make telosb install,3
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,5
+killall -9 java
+make telosb install,5
+killall -9 java
+ps
+killall -9 make
+killall -9 tos-bsl
+ps
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 tos-bsl
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+make telosb install,3
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,5
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+motelist
+killall -9 java
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+motelist
+ps
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+motelist
+killall -9 java
+motelist
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+make telosb install,4
+killall -9 java
+make telosb install,4
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+ps
+killall -9 make
+killall -9 tos*
+killall -9 tos-bsl
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 tos-bsl
+killall -9 make
+killall -9 java
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+make telosb install,4
+make telosb install
+ls -la
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 make
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+ls -l /dev/ttyU*
+killall -9 java
+ls -l /dev/ttyU*
+minicom -s
+cd..
+cd ..
+cd progetti/ggg/MTS_EM1000/
+ls
+make telosb install,0
+make telosb install,4
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+make telosb install,4
+make telosb install,0
+cd ..
+ls
+cd MTS_AR1000/
+make telosb install,4
+ps
+make telosb install,4
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+pps
+ps
+ls -l /dev/ttyU
+ls -l /dev/ttyU*
+minicom
+cd /var/
+mysql -u root -p
+/etc/init.d/apache2 start
+sudo /etc/init.d/apache2 start
+sudo /etc/init.d/mysql start
+mysql -u root -p
+sudo apt-get install php5 libapache2-mod-php5
+sudo a2enmod rewrite
+sudo vi /etc/apache2/sites-enabled/000-default 
+sudo /etc/init.d/apache2 restart
+sudo /etc/init.d/mysql restart
+ifconfig
+ls -l /dev/
+ls -l /dev/ttyU*
+minicom -s
+ls -l /dev/ttyU*
+ps
+sudo minicom -s
+cd /var/www/emoncms-master/
+ls -la
+vi .htaccess 
+ifconfig
+cd /opt/tinyos-2.1.2/progetti/ggg/MTS_AR1000/
+make telosb install,4
+make telosb install,1
+make telosb install,0
+cd ..
+ls
+cd MTS_EM1000/
+make telosb install,0
+make telosb install,4
+cd ..
+cd Allegati_2013820/
+make telosb install,0
+ps
+make telosb install,0
+make telosb install,4
+cd ..
+cd ggg/MTS_EM1000/
+make telosb install,0
+cd /var/www/emoncms-master/ps
+ps
+make telosb install,0
+java net.tinyos.tools.PrintfClient -comm serial@/dev/ttyUSB0:telosb
+cd ..
+cat /home/gioge/.bash_history | grep py
+cd ..
+ls
+cd ..
+python script.py 
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+killall -9 python
+ps
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+ps
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+python script.py 
+ps
+killall -9 python
+killall -9 java
+ps
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+ps
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+killall -9 java
+ps
+python script.py 
+killall -9 java
+ps
+killall -9 python
+ps
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+ps
+killall -9 java
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+ls
+cd progetti/
+ls
+cd ggg/MTS_AR1000/
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+ps
+cd ..
+ls
+python script.py 
+ls -l /dev/ttyU*
+ps
+ls -l /dev/ttyU*
+python script.py 
+ps
+killall -9 python
+ps
+python script.py 
+ps
+killall -9 python
+ps
+python script.py 
+python scriptCO.py 
+ps
+killall -9 python
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosbcd
+python scriptCO.py 
+killall -9 python
+ls -l /dev/ttyU*
+killall -9 python
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosbcd
+java net.tinyos.tools.Listen -comm serial@/dev/ttyUSB0:telosb
+killall -9 python
+killall -9 java
+ls -l /dev/ttyU*
+ifconfig
+ifconfig down eth1 
+ifconfig  eth1 down
+sudo ifconfig  eth1 down
+sudo ifconfig  eth1 up
